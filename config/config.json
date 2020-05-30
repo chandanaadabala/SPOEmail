@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "email-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/emailApp/EmailAppWebPart.js",
+          "manifest": "./src/webparts/emailApp/EmailAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmailAppWebPartStrings": "lib/webparts/emailApp/loc/{locale}.js"
+  }
+}
